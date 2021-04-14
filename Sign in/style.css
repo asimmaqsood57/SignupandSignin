@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    /* border: 1px solid black; */
+    padding: 3rem;
+    margin-top: 3rem;
+    color: white;
+    opacity: 1;
+
+
+}
+
+
+.form-control {
+
+    border-radius: 0.5rem;
+    border-bottom-right-radius: 2rem;
+
+    border-top-right-radius: 2rem;
+
+}
+
+
+.btn-login {}
+
+.btn-login:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+.btn-btn-width {
+
+
+    width: inherit;
+    margin: auto;
+}
+
+.btn {
+    width: inherit;
+    border-radius: 2.25rem;
+    padding: 0.8rem;
+}
+
+
+h3 {
+    align-content: center;
+    margin: auto;
+    width: 88px;
+    inline-size: max-content;
+    color: white;
+
+}
+
+.container-fluid {
+
+    border: 2px solid black;
+}
+
+input {
+    border-radius: 0.5rem;
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 2rem;
+
+    border-top-right-radius: 2rem;
+}
+
+
+input:focus {
+
+    font-weight: bolder;
+    animation-name: inputAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+a{
+    color: white;
+}
+
+.para{
+    color: white;
+    font-style: italic;
+
+}
+
+@keyframes inputAnim {
+
+    0% {
+
+        color: black;
+    }
+
+    25% {
+
+
+        color: green;
+
+    }
+
+    50% {
+
+        color: #3b5998;
+    }
+
+    75% {
+        color: red;
+    }
+
+    100% {
+        color: blueviolet;
+    }
+
+}
+
+*::placeholder {
+    color: white;
+
+}
+
+.btn-facebook {
+
+    background-color: #3b5998;
+}
+
+.btn-google {
+
+    background-color: #db3236;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+:-moz-placeholder {
+    color: rgb(233, 233, 233);
+}
+
+::-moz-placeholder {
+    color: rgb(251, 250, 250);
+}
+
+:-ms-input-placeholder {
+    color: rgb(240, 236, 236);
+}
+
+body {
+    background: url('bg_game.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.col {
+
+    /* border: 2px solid blue; */
+}

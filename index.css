@@ -1,0 +1,156 @@
+
+
+
+.container{
+
+
+
+    padding: 3rem;
+    margin-top: 3rem;
+    color: white;
+    opacity: 1;
+    
+
+}
+
+
+.form-control{
+
+/* This class is handling input fields */
+
+    border-radius: 0.5rem;
+        border-bottom-right-radius: 2rem;
+    
+        border-top-right-radius: 2rem;
+
+}
+
+
+
+
+.btn-login{
+
+/* This class is used in login button for applying hovers */
+
+}
+
+.btn-login:hover{
+
+
+
+    background-color: white;
+    color: black;
+}
+
+
+.btn-btn-width{
+
+
+    width: inherit;
+    margin: auto;
+}
+
+.btn{
+    width: inherit;
+    border-radius: 2.25rem;
+    padding: 0.8rem;
+}
+h3{
+    align-content: center;
+    margin: auto;
+    width: 88px;
+    inline-size: max-content; color: white;
+
+}
+.container-fluid{
+
+    border: 2px solid black;
+}
+
+input{
+    border-radius: 0.5rem;
+
+    border: none;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 2rem;
+
+    border-top-right-radius: 2rem;
+
+
+}
+
+input:focus{
+    
+    font-weight: bolder;
+    animation-name: inputAnim;
+    animation-duration: 3s;
+animation-iteration-count: infinite;
+
+
+}
+
+a{
+    color: white;
+}
+
+.para{
+    color: white;
+    font-style: italic;
+
+}
+
+@keyframes inputAnim{
+
+0%{
+    
+    color: black;
+}
+25%{
+
+    
+    color: green;
+
+}
+50%{
+
+    color: #3b5998;
+}
+75%{
+    color: red;
+}
+100%{
+    color: blueviolet;
+}
+
+}
+
+::placeholder{
+    color: rgb(214, 45, 45);
+    
+}
+.btn-facebook{
+
+    background-color:  #3b5998 ;
+}
+.btn-google{
+
+    background-color:  #db3236;
+}
+
+
+
+body{
+    background: url('bg_game.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.form{
+
+    width: 300px;
+    margin: auto;
+}
